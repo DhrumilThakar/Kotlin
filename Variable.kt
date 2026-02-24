@@ -57,6 +57,8 @@ fun main() {
 
     var myArray = arrayOf(1,2,3)
 
+    /*If	you	define	an	array	using	val,	you	can	still	update	the	items	in
+the	array*/
 
     println("a = $a, type = ${a::class.simpleName}")
     println("b = $b, type = ${b::class.simpleName}")
