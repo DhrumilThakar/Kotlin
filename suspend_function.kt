@@ -2,7 +2,6 @@
 // This gives access to runBlocking, delay, launch, async, etc.
 import kotlinx.coroutines.*
 
-
 // Class name in Kotlin should start with Capital letter (PascalCase)
 class SuspendFunction {
 
@@ -27,7 +26,6 @@ class SuspendFunction {
         return "Breakfast is ready"
     }
 }
-
 
 // main function with coroutine scope
 // runBlocking is used to start a coroutine in normal main()
